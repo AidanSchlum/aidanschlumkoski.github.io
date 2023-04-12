@@ -13,7 +13,11 @@
 .custom-nav a {
 	color:white;
 	display:inline-block;
-	display:grid;
+	padding-top: 20px;
+}
+
+.link{
+	color:#011264;
 }
 
 .custom-nav a:hover {
@@ -22,9 +26,7 @@
 	cursor: pointer;
 }
 
-.custom-nav img{
-	background-color:#011264 ;
-}
+
 .portfolio-block{
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -125,8 +127,12 @@ blockquote cite{
 
 .logo {
 	max-height: 70px;
+	margin-top: -20px;
 }
 
+.logo:hover{
+	background-color: #011264;
+}
 /* Footer css */
 
 .footer-basic {
